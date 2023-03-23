@@ -1,4 +1,6 @@
-# Definição de variáveis - Quantas proposições serão?
-# Quais conectivos serão usados?
-# Definir a expressão lógica
-# Elaborar a tabela
+import ttg
+
+print('Tabela de p, q e r:\n')
+print(ttg.Truths(['p', 'q', 'r\n']))
+operacao = input('Qual operação você deseja realizar? ')
+print(ttg.Truths(['p', 'q', 'r'], [operacao]))
